@@ -13,6 +13,8 @@ basic.forever(function () {
             `)
     } else if (Degrees > 70 && Degrees < 110) {
         basic.showString("E")
+    } else if (Degrees > 160 && Degrees < 200) {
+        basic.showString("S")
     } else {
         basic.clearScreen()
     }
