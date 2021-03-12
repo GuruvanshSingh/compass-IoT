@@ -11,6 +11,8 @@ basic.forever(function () {
             . . # . .
             . . # . .
             `)
+    } else if (Degrees > 70 && Degrees < 110) {
+        basic.showString("E")
     } else {
         basic.clearScreen()
     }
